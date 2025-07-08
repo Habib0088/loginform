@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin-bottom: 30px;
+}
+.login{
+    background-image: url("../nature.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:700px;
+}
+.area{
+    max-width: 300px;
+    margin:auto;
+    border:2px solid #fff;
+    text-align: center;
+    border-radius: 5px;
+    height:300px;
+    padding:40px;
+    color:#fff;
+
+}
+input[type="text"],
+input[type="password"]{
+    display: block;
+    width: 100%;
+    margin-bottom: 10%;
+    padding:10px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color:#fff;
+}
+input::placeholder{
+    color:#fff
+}
+input[type="checkbox"] {
+    margin: 0;
+    padding: 0;
+    
+}
+.forgot-area{
+    display: block;
+    width: 100%;
+}
+.forgot{
+    text-align: right;
+}
+.loginbtn{
+    display: block;
+    margin:auto;
+    width: 100%;
+    margin:20px 0;
+    padding: 10px;
+    border-radius: 20px;
+}
+p a{
+    text-decoration: none;
+    color: #fff;
+    text-align: right;
+}
